@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { useHistory } from "react-router-dom"
-import { addCategory } from "./CategoryManager"
+import { addCategory } from "../../modules/CategoryManager"
 // import './Category.css'
 
 export const CategoryForm = () => {

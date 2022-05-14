@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { CategoryForm } from "./CategoryForm";
-import { getAllCategories } from "./CategoryManager";
+import { getAllCategories } from "../../modules/CategoryManager";
 // import './Category.css'
 
 export const CategoryList = () => {
