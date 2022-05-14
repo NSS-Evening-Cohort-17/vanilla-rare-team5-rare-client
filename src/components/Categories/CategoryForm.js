@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Link, useHistory } from "react-router-dom"
+import { useHistory } from "react-router-dom"
 import { addCategory } from "./CategoryManager"
 // import './Category.css'
 
@@ -32,7 +32,9 @@ export const CategoryForm = () => {
                     <label htmlFor="category"> Create a new category</label>
                     <input type="text" id="category" onChange={handleInput} required autoFocus className="Category__label" placeholder="Add text" value={category.label} />
                 </div>
-                <button className="cat__btn" onClick={handleClickSaveCategory}></button>
+                {/* <Link to={"/category"}> */}
+                <button className="cat__btn" onClick={handleClickSaveCategory}> submit</button>
+                {/* </Link> */}
             </div>
         </>
     )
