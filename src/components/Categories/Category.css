@@ -1,0 +1,9 @@
+.cat_form {
+    display: flex;
+    border: 2px;
+    border: 3px;
+}
+
+.cat_text {
+    background-color: blue;
+}
